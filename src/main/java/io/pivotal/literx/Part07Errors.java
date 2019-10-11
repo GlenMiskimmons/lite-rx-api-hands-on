@@ -52,7 +52,7 @@ public class Part07Errors {
 			try {
 				return capitalizeUser(user);
 			} catch (GetOutOfHereException exception) {
-				throw  Exceptions.propagate(exception);
+				throw Exceptions.propagate(exception);
 			}
 		});
 	}
